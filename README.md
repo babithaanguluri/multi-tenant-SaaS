@@ -1,6 +1,6 @@
 # Multi-Tenant SaaS Platform (Projects & Tasks)
 
-A simple, dockerized multi-tenant SaaS starter. Multiple organizations (tenants) can manage users, projects, and tasks.
+A simple, production-style, dockerized multi-tenant SaaS starter project. Multiple organizations (tenants) can manage users, projects, and tasks.
 
 This repo includes:
 - strict tenant data isolation (via `tenant_id`)
