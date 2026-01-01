@@ -95,8 +95,8 @@ All required documentation artifacts are under `docs/`:
 - Research (multi-tenancy, stack justification, security): `docs/research.md`
 - API documentation (19 core endpoints + operational endpoints): `docs/API.md`
 
-## Demo video
-
+## Demo video (project walkthrough)
+This video demonstrates tenant isolation, role-based access, and core workflows.
 YouTube (Unlisted/Public, 5–12 minutes): https://www.youtube.com/watch?v=REPLACE_WITH_YOUR_VIDEO_ID
 
 ## Notes
