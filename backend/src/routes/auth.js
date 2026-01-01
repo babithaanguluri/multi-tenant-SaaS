@@ -124,7 +124,7 @@ router.post('/login', async(req, res) => {
             expiresIn: 86400
         }));
     } catch (e) {
-        return res.status(500).json(fail('Internal error'));
+        return res.status(500).json(fail('Internal server error occurred'));
     }
 });
 

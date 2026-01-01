@@ -150,7 +150,7 @@ router.patch('/:taskId/status', authRequired, async(req, res) => {
 
         return res.json(ok(u.rows[0]));
     } catch (e) {
-        return res.status(500).json(fail('Internal error'));
+        return res.status(500).json(fail('Internal server error occurred'));
     }
 });
 

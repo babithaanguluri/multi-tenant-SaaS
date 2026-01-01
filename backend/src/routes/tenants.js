@@ -127,7 +127,7 @@ router.get('/', authRequired, requireRole('super_admin'), async(req, res) => {
             }
         }));
     } catch (e) {
-        return res.status(500).json(fail('Internal error'));
+        return res.status(500).json(fail('Internal server error occurred'));
     }
 });
 

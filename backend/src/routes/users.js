@@ -115,7 +115,7 @@ router.put('/:userId', authRequired, async(req, res) => {
 
         return res.json(ok(upd.rows[0], 'User updated successfully'));
     } catch (e) {
-        return res.status(500).json(fail('Internal error'));
+        return res.status(500).json(fail('Internal server error occurred'));
     }
 });
 
@@ -137,7 +137,7 @@ router.delete('/:userId', authRequired, requireRole('tenant_admin'), async(req, 
 
         return res.json(ok(null, 'User deleted successfully'));
     } catch (e) {
-        return res.status(500).json(fail('Internal error'));
+        return res.status(500).json(fail('Internal server error occurred'));
     }
 });
 

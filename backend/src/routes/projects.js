@@ -87,7 +87,7 @@ router.get('/', authRequired, async(req, res) => {
 
         return res.json(ok({ projects, total: count.rows[0].c, pagination: { currentPage: pg, totalPages: Math.ceil(count.rows[0].c / l), limit: l } }));
     } catch (e) {
-        return res.status(500).json(fail('Internal error'));
+        return res.status(500).json(fail('Internal server error occurred'));
     }
 });
 
