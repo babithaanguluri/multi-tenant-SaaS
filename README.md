@@ -51,7 +51,7 @@ Key variables:
 
 ## Deploy frontend to GitHub Pages
 
-This repository includes a React (Vite) frontend and a Node/Express backend. **GitHub Pages can only host static sites**, so this deploy publishes **only the `frontend/`**.
+This repository includes a React (Vite) frontend and a Node/Express backend. **GitHub Pages supports only static frontend assests**, so this deploy publishes **only the `frontend/`**.
 
 ### Enable GitHub Pages
 
@@ -75,7 +75,7 @@ Pushing to `main` (or `master`) will build and publish the site via `.github/wor
 
 Your site URL will be:
 
-- `https://<owner>.github.io/<repo>/`
+- `https://<owner>.github.io/<repo>/` 
 
 ### Notes
 
