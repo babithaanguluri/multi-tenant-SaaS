@@ -39,7 +39,7 @@ These are also recorded in `submission.json`.
 ## Environment variables
 
 Environment variables for evaluation are set directly in `docker-compose.yml` (so `docker-compose up -d` works with no extra steps).
-
+This approach simplifes setup for reviewers and avoids manual configuration.
 For local (non-Docker) development, you can copy `.env.example` → `.env` and adjust as needed.
 
 Key variables:
