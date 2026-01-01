@@ -14,7 +14,7 @@ Key features included in this project:
 Start everything:
 
 ```powershell
-cd "c:\Users\yaswa\OneDrive\Desktop\Multi-tenant-saas-platform"
+cd "D:\multi-tenant-SaaS-main"
 docker-compose up -d
 ```
 
