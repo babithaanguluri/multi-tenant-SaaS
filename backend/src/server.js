@@ -1,3 +1,5 @@
+// Backend entry point for the Multi-Tenant SaaS platform
+// Responsible for initializing server, middleware, and routes
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
