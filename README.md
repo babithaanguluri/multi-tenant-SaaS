@@ -24,7 +24,7 @@ These services are exposed locally for development and evaluation purposes.
 - Backend API: http://localhost:5000
 - Health check: http://localhost:5000/api/health
 
-## Login credentials (seeded)
+##  Default login credentials (seeded data)
 
 These are also recorded in `submission.json`.
 
