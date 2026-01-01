@@ -19,6 +19,7 @@ docker-compose up -d
 ```
 
 Open:
+These services are exposed locally for development and evaluation purposes.
 - Frontend UI: http://localhost:3000
 - Backend API: http://localhost:5000
 - Health check: http://localhost:5000/api/health
