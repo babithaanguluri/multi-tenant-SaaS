@@ -2,7 +2,7 @@
 
 A simple, production-style, dockerized multi-tenant SaaS starter project. Multiple organizations (tenants) can manage users, projects, and tasks.
 
-This repo includes:
+Key features included in this project:
 - strict tenant data isolation (via `tenant_id`)
 - RBAC roles (`super_admin`, `tenant_admin`, `user`)
 - subscription plan limits (max users/projects)
