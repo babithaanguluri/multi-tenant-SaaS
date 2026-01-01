@@ -9,7 +9,7 @@ Key features included in this project:
 - subscription plan limits (max users/projects)
 - automatic DB migrations + seed data on startup
 
-## Run with Docker (recommended)
+## Run the application using Docker (recommended)
 
 Start everything:
 
