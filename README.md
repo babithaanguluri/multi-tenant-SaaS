@@ -98,7 +98,7 @@ All required documentation artifacts are under `docs/`:
 
 ## Demo video (project walkthrough)
 This video demonstrates tenant isolation, role-based access, and core workflows.
-YouTube (Unlisted/Public, 5–12 minutes): [https://www.youtube.com/watch?v=REPLACE_WITH_YOUR_VIDEO_ID](https://youtu.be/NSMLRDo30NE)
+YouTube (Unlisted/Public, 5–12 minutes): https://youtu.be/NSMLRDo30NE
 
 ## Notes
 
