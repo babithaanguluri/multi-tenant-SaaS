@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig(() => {
-    // GitHub Pages (project pages) serves from: https://<owner>.github.io/<repo>/
     // We set `base` dynamically in CI using env vars.
     const isGitHubPages = process.env.GITHUB_PAGES === 'true';
     const repoName = (process.env.GITHUB_REPOSITORY || '').split('/')[1];
