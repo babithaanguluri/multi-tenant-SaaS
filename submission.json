@@ -7,6 +7,7 @@
             "tenantId": null
         },
         "tenants": [
+            
             {
                 "name": "Demo Company",
                 "subdomain": "demo",
@@ -18,6 +19,7 @@
                     "role": "tenant_admin"
                 },
                 "users": [
+                    
                     {
                         "email": "user1@demo.com",
                         "password": "User@123",
