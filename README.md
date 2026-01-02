@@ -16,6 +16,7 @@ Start everything:
 ```powershell
 cd "D:\multi-tenant-SaaS-main"
 docker-compose up -d
+docker-compose up --build
 ```
 
 Open:
